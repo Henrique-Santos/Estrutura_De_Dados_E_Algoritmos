@@ -1,5 +1,5 @@
 Array.prototype.removeFirstPosition = function() {
-    for (let i = 0; i < this.length - 1; i++) { // A última posiçao fica undefined, por isso ela não é percorrida
+    for (let i = 0; i < this.length - 1; i++) { // A última posiçao fica undefined, por isso ela não é percorrida.
         this[i] = this[i + 1] 
     }
 }
